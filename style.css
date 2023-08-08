@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background-emoji-17.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+
+    margin:100px 0px 0 460px;
+    width: 650px;
+    min-height: 500px;
+    background:linear-gradient(to right, rgb(235, 73, 73),white);
+    text-align: center;
+}
+
+.container>h1{
+    padding: 30px;
+    font-size: 80px;
+}
+
+p{
+    font-size: 40px;
+    margin: 10px;
+}
+
+#btn{
+    margin:10px;
+      font-size: 20px;
+      padding: 10px;
+      font-weight: 600;
+      background-color:transparent;
+      border-radius: 2px solid white;
+      box-shadow: 5px 6px rgb(229, 108, 108);
+      cursor: pointer;
+}
